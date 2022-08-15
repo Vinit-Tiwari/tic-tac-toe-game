@@ -1,0 +1,191 @@
+body{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: black;
+}
+
+.name{
+    color: rgb(13,161,146);
+}
+
+.container{
+    display: grid;
+    width: 30vw;
+    height: 30vw;
+    text-align: center;
+    column-gap: 7px;
+    row-gap: 7px;
+    grid-template-columns: auto auto auto;
+    background-color:rgb(13,161,146);
+}
+
+.num{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border: 5px solid black;
+    color: rgb(13,161,146);        
+}
+
+
+.line1{
+    position: absolute;
+    width: 7vw;
+    height: 4px;
+    background-color: rgb(13,161,146);
+    transform: rotate(45deg);
+}
+
+.line2{
+    position: absolute;
+    width: 7vw;
+    height: 4px;
+    background-color: rgb(13,161,146);
+    transform: rotate(-45deg);
+}
+
+.circle{
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    border: 4px solid  rgb(13,161,146);
+    border-radius: 50%;
+
+}
+
+.n1 .line1{
+    display: none;
+}
+
+.n1 .line2{
+    display: none;
+}
+
+.n1 .circle{
+    display: none;
+}
+
+.n2 .line1{
+    display: none;
+}
+
+.n2 .line2{
+    display: none;
+}
+
+.n2 .circle{
+    display: none;
+}
+
+.n3 .line1{
+    display: none;
+}
+
+.n3 .line2{
+    display: none;
+}
+
+.n3 .circle{
+    display: none;
+}
+
+.n4 .line1{
+    display: none;
+}
+
+.n4 .line2{
+    display: none;
+}
+
+.n4 .circle{
+    display: none;
+}
+
+.n5 .line1{
+    display: none;
+}
+
+.n5 .line2{
+    display: none;
+}
+
+.n5 .circle{
+    display: none;
+}
+
+.n6 .line1{
+    display: none;
+}
+
+.n6 .line2{
+    display: none;
+}
+
+.n6 .circle{
+    display: none;
+}
+
+.n7 .line1{
+    display: none;
+}
+
+.n7 .line2{
+    display: none;
+}
+
+.n7 .circle{
+    display: none;
+}
+
+.n8 .line1{
+    display: none;
+}
+
+.n8 .line2{
+    display: none;
+}
+
+.n8 .circle{
+    display: none;
+}
+
+.n9 .line1{
+    display: none;
+}
+
+.n9 .line2{
+    display: none;
+}
+
+.n9 .circle{
+    display: none;
+}
+
+.button{
+    width: max-content;
+    padding: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.button:hover{
+    background-color: rgb(13,161,146,0.2);
+}
+
+.restartButton{
+    color: rgb(13,161,146);
+}
+
+
+@media only screen and (max-width:600px) {
+    .container{
+        width: 50vw;
+        height: 50vw;
+    }
+}
